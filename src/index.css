@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-brand: 'Cinzel', serif;
+  --font-sans: 'Outfit', sans-serif;
+
+  --color-gold-300: #edd09b;
+  --color-gold-400: #deb86a;
+  --color-gold-500: #c59e5f;
+  --color-gold-600: #aa8144;
+  --color-gold-700: #8c642e;
+
+  --color-farm-dark: #0b0a08;
+  --color-farm-card: #14110d;
+  --color-farm-surface: #1a1612;
+  --color-farm-border: #2e261f;
+}
+
+@layer base {
+  body {
+    background-color: #0b0a08;
+    color: #f2ede4;
+    font-family: 'Outfit', sans-serif;
+  }
+
+  h1, h2, h3, .font-serif {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+  }
+
+  .font-brand {
+    font-family: 'Cinzel', serif;
+  }
+}
